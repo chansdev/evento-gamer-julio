@@ -1,0 +1,43 @@
+@import url("./css/reset.css");
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 40px 0;
+    background-color: #7a0000;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    div {
+        display: flex;
+        position: relative;
+        justify-items: start;
+        width: 1400px;
+        gap: 20px;
+
+        .linha {
+            display: flex;
+            width: 200px;
+            height: 2px;
+            align-self: end;
+            background-color: white;
+        }
+        
+        a {
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 40px;
+        }
+
+        img {
+            position: absolute;
+            top: -60px;
+            right: 0px;
+            width: 600px;
+            height: 800px;
+            object-fit: cover;
+        }
+    }
+}
