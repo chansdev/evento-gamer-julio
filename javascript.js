@@ -19,6 +19,6 @@ linksInternos.forEach((e) => {
 // menu hamburger
 const menubt = document.querySelector("#menuCheck");
 
-menubt.addEventListener("change", (e) => {
+menubt.addEventListener("click", (e) => {
   document.querySelector("#menu").classList.toggle("ativo");
 });
